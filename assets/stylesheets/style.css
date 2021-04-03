@@ -1036,6 +1036,12 @@ textarea::placeholder{
 .blog-nav{
     padding-bottom: 1rem;
 }
+.blog-nav li a{
+    color: var(--secondary);
+}
+.blog-nav .active{
+    color: var(--primary);
+}
 .blog-head h3{
     font-size: 2rem;
     font-weight: 500;
@@ -1051,12 +1057,12 @@ textarea::placeholder{
 }
 .blog-name-date span,.blog-name-date time {
     font-size: 1rem;
-    color: var(--heaven);
+    color: var(--para);
 }
 .blog-name-date i {
     font-size: 0.9rem;
     padding-right: 4px;
-    color: #5a5757;
+    color: var(--gainsboro);
 }
 .blog-name-date span {
     padding-right: 1rem;
@@ -1088,4 +1094,26 @@ textarea::placeholder{
     box-shadow: 1px 1px 4px var(--gainsboro);
     border-radius: 0.6rem; 
     margin-bottom: 2rem;
+    height: 40rem;
+}
+.next-btn a {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    height: 2.2rem;
+    width: 2.2rem;
+    display: inline-block;
+    box-shadow: 1px 1px 6px var(--gainsboro);
+    text-align: center;
+    line-height: 2rem;
+    margin-left: 0.4rem;
+    color: var(--heaven);
+    font-weight: 400;
+}
+.next-btn .fa-chevron-left, .next-btn .fa-chevron-right{
+    font-size: 1rem;
+    color: var(--primary);
+}
+.next-btn .active{
+    background-color: var(--primary);
+    color: var(--white);
 }
